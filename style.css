@@ -1,0 +1,86 @@
+.ans{
+    display: flex;
+    justify-content: space-between;
+}
+.question{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    text-shadow: 2px 3px 4px black;
+}
+.answer{
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.answer:hover{
+    transform: scale(1.5);
+    border: 1px dashed black;
+    transition: 2s;
+}
+.container{
+    display: none;
+}
+.start1{
+    display: block;
+       text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+    text-shadow: 2px 3px 4px black;
+    background-image: linear-gradient(black,yellow,white);
+}
+.start1:hover{
+    box-shadow: 4px 5px 6px 7px black;
+}
+body{
+    background-color:rgb(201, 192, 192) ;
+}
+.start3{
+   display: block;
+       text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    text-shadow: 2px 3px 4px black;
+    background-image: linear-gradient(black,red,white);  
+}
+.start3:hover{
+    box-shadow: 4px 5px 6px 7px black;
+}
+.start2{
+
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    text-shadow: 2px 3px 4px black;
+    background-image: linear-gradient(black,green,white);  
+}
+.start2:hover{
+    box-shadow: 4px 5px 6px 7px black;}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.text{
+    color: rgb(28, 28, 35);
+    text-shadow: 8px 9px 7px rgb(0, 0, 0);
+  border: rgb(160, 140, 140);
+ ;
+}
+.text1{
+    background-color: rgb(128, 121, 109);
+    border: 2px solid white;
+    color: black;
+    text-shadow: 8px 9px 7px rgb(0, 0, 0);
+text-align: center;
+}
+body{
+    background-image: url("https://cafegist.com.ng/wp-content/uploads/2022/06/Why-You-Should-and-How-to-Improve-Your-Math-Skills.jpg");
+    background-size: cover;
+    background-position: center;
+}
